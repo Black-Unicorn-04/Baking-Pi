@@ -11,7 +11,6 @@ clock_label.pack(anchor="center", fill="both", expand=True)
 
 #Function to update the time
 
-
 def update_time():
     current_time = strftime("%H:%M:%S")
     clock_label.config(text=current_time)
